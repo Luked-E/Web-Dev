@@ -1,0 +1,21 @@
+header {
+  background-color: white;
+}
+main {
+  height: 200px;
+  background-color: purple;
+}
+nav {
+  width: 30%;
+  float: left;
+  background-color: blue;
+  opacity: 30%;
+  color: chartreuse;
+}
+article {
+  width: 70%;
+  float: right;
+}
+footer {
+  background-color: rgb(168, 8, 8);
+}
