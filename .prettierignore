@@ -1,0 +1,11 @@
+# Dependencies & system files
+node_modules/
+.git/
+.vscode/
+
+# Build & output directories
+dist/
+build/
+*.min.js
+*.min.css
+
