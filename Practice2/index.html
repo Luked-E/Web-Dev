@@ -3,12 +3,38 @@
   <head>
     <link rel="stylesheet" href="style.css" />
     <title>Notes Page | home</title>
+    <style>
+      h1 {
+        background-color: brown;
+      }
+    </style>
   </head>
   <body>
-    <header>Hello</header>
+    <header>Index</header>
     <main>
-      <nav>The dog</nav>
-      <article>him</article>
+      <nav>
+        <a href="index.html">Home</a> | <a href="pics.html">Images</a> |
+        <a href="links.html">Links</a> | <a href="lists.html">Lists</a> |
+        <a href="colors.html">Color</a> | <a href="layouts.html">Layouts</a> |
+        <a href="odds.html">Odds</a> | <a href="forms.html">Forms</a>
+      </nav>
+      <article>
+        <h1 style="font-size: 50pt; border-bottom: 2px solid">CSS Notes</h1>
+        <p>
+          There are three places were you can write css<br />
+          - External <br />
+          - Page header (overrides external) <br />
+          - Inline (overrides external and page header)
+        </p>
+        <h1>CSS Selectors</h1>
+        <p class="bodytext">
+          There are three ways to apply css<br />
+          - highjack HTML tags<br />
+          - declared and use classes<br />
+          - declare and use Is
+        </p>
+      </article>
+      <aside id="shadow">hello there</aside>
     </main>
     <footer>the zombies are coming</footer>
   </body>
