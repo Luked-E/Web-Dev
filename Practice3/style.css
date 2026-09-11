@@ -1,0 +1,45 @@
+.mid {
+  background-color: gray;
+}
+article {
+  background-color: white;
+  border-radius: 5px;
+  /* width: 970px;
+    height: 175px; */
+  padding: 5px;
+  margin: 10px;
+  box-sizing: border-box;
+  width: 980px;
+  height: 185px;
+}
+main {
+  width: 1000px;
+  height: 600px;
+  background-color: blue;
+  padding-top: 5px;
+}
+nav {
+  background-color: lightblue;
+  width: 1000px;
+  height: 50px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+header {
+  background-color: darkblue;
+  color: green;
+  width: 1000px;
+  height: 150px;
+
+  padding: 5px;
+  box-sizing: border-box;
+}
+footer {
+  background-color: black;
+  color: white;
+  width: 1000px;
+  height: 300px;
+
+  padding: 5px;
+  box-sizing: border-box;
+}
