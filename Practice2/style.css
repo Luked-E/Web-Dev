@@ -88,3 +88,7 @@ a:hover {
   padding-right: 5pt;
   padding-left: 5pt;
 }
+a:active {
+  background-color: black;
+  color: azure;
+}

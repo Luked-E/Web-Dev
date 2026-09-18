@@ -1,0 +1,18 @@
+.left-header {
+  float: left;
+}
+
+.right-header {
+  float: right;
+}
+
+header {
+  display: flow-root;
+}
+main {
+  display: flow-root;
+}
+.left-box {
+  float: left;
+  width: 33%;
+}

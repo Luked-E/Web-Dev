@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
-    <title>Notes Page | home</title>
+    <title>Forms | home</title>
   </head>
   <body>
     <header>Forms</header>
@@ -14,7 +14,35 @@
         <a href="odds.html">Odds</a> | <a href="forms.html">Forms</a> |
         <a href="tables.html">Tables</a>
       </nav>
-      <article>him</article>
+      <article>
+        <form action="https://formspree.io/f/mrpbgdgd" method="POST">
+          <p>What is your name.</p>
+          <input type="text" name="personsName" value="Type here" />
+          <p>What ice cream do you like:</p>
+          <input type="checkbox" name="IceCreams" value="vanilla" />Vanilla
+          <input type="checkbox" name="IceCreams" value="chocolate" />Chocolate
+          <input type="checkbox" name="IceCreams" value="rockyRoad" />Rocky Road
+          <input type="checkbox" name="IceCreams" value="strawberry" />Strawberry
+          <p>What is your favorate topping:</p>
+          <input type="radio" name="topping" value="sprinkles" />Sprinkles
+          <input type="radio" name="topping" value="nuts" />Nuts
+          <input type="radio" name="topping" value="fruits" />Fruits
+          <input type="radio" name="topping" value="milk" />Milk
+          <p>How do you like your ice cream:</p>
+          <select name="serving" size="5" multiple>
+            <option value="cone">Cone</option>
+            <option value="cup">Cup</option>
+            <option value="bowl">Bowl</option>
+            <option value="waffle">Waffle</option>
+            <option value="tub">Tub</option>
+          </select>
+          <p><input type="submit" value="Click here to send" /></p>
+          <p></p>
+        </form>
+        <form action="https://www.google.com" method="get">
+          <input type="submit" value="google" />
+        </form>
+      </article>
     </main>
     <footer>the zombies are coming</footer>
   </body>
